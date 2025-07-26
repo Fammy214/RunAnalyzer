@@ -1,6 +1,7 @@
 ~.env
 config.yaml
 secrets.json
+strava.yaml
 credentials.json
 .DS_Store
 .env.local

@@ -19,13 +19,7 @@ def load_config():
 
 
 def refresh_access_token(config):
-    response = requests.post(config['token_url'], data= {
-        'client_id': config['client_id'],
-        'client_secret': config['client_secret'],
-        'code': '6bd3c24c56c90ce7c576c6aa9a72b2be5a89bd90',
-        'grant_type': 'refresh_token',
-        'refresh_token': config['refresh_token']
-    })
+    response = """ Replacing because was hardcoded for testing"""
     data = response.json()
     print("Token response:", data)
     return data['access_token']
