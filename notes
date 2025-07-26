@@ -1,0 +1,31 @@
+Find way to normalize data by relationship of distance, time, speed, hearrate, and elevation. 
+apply weights depending on what influences the most. 
+
+Use different trend and curve analysis to compare y values( date/time, date/distance, date/heartrate, etc)
+take those equations to compare and generate useable relationships between data.
+
+Add a gui, with buttons to swap between different graphs
+
+store the data, and equations in a database, and use for training predictive models
+
+add workout reccomendations to improve at the fastest pace, after the above.
+# 🏃 RunAnalyzer — Dev Notes & Roadmap
+
+## ✅ Completed
+- Segment-based trend plotting
+- Curve fit equation annotations
+- Weekly data normalization
+- High-contrast pastel theme
+
+## 📌 Current To-Do
+- [ ] Add `effort_index`, `cardiac_efficiency` to metrics
+- [ ] Weight trend lines by slope or run distance
+- [ ] GUI toggle for segmented trends
+- [ ] Export weekly summary as PDF
+- [ ] Streamlit dashboard prototype
+
+## 🧠 Ideas
+- Compare slope of HR trend vs pace trend
+- Highlight segments with max/min trend slope
+- Model fatigue curve over 7/28/56 day rolling windows
+

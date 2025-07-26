@@ -1,0 +1,13 @@
+{
+  "avg_distance": 7935.202766798419,
+  "avg_moving_time": 3760.924901185771,
+  "avg_speed": 2.085569169960474,
+  "avg_heart_rate": 137.60443548387096,
+  "avg_max_hr": 165.66129032258064,
+  "avg_total_elevation_gain": 163.49367588932807,
+  "avg_pace_min_per_km": 522.7080240861291,
+  "avg_elevation_gain_per_km": 20.037470806012028,
+  "avg_elevation_gain_per_min": 2.464910081787485,
+  "avg_elevation_gain_per_moving_time": 0.04108183469645808,
+  "avg_vo2_max": 95
+}

@@ -1,0 +1,40 @@
+theme:
+  background_color: "#1f1f28"      # soft glass-like dark (matches kitty)
+  grid_color: "#f0f0ff"            # subtle violet-gray grid
+  text_color: "#f0f0ff"            # very soft white-violet
+  accent_color: "#f5bde6"          # pastel pink (data line)
+  marker_color: "#f5bde6"          # pastel pink markers
+  font: "DejaVu Sans"
+  line_style: "solid"
+  marker: "o"
+  alpha: 0.9
+
+  # Trend line (pastel sky blue)
+  trend_line: true
+  trend_line_color: "#a6daff"
+  trend_line_style: "--"
+  trend_line_width: 2
+  trend_line_alpha: 0.9
+  trend_line_marker: "o"
+  trend_line_marker_color: "#a6daff"
+  trend_line_marker_size: 5
+  trend_line_marker_facecolor: "#a6daff"
+  trend_line_marker_edgecolor: "#a6daff"
+  trend_line_marker_edgewidth: 0
+  trend_line_marker_alpha: 0.9
+  trend_line_equation_color: "#a6daff"
+
+  # Curve fit (pastel purple)
+  curve_fit: true
+  curve_fit_color: "#c6a0f6"
+  curve_fit_style: "-."
+  curve_fit_width: 2
+  curve_fit_alpha: 0.9
+  curve_fit_marker: "o"
+  curve_fit_marker_color: "#c6a0f6"
+  curve_fit_marker_size: 5
+  curve_fit_marker_facecolor: "#c6a0f6"
+  curve_fit_marker_edgecolor: "#c6a0f6"
+  curve_fit_marker_edgewidth: 0
+  curve_fit_marker_alpha: 0.9
+  curve_fit_equation_color: "#c6a0f6"
