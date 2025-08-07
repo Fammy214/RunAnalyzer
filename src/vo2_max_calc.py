@@ -1,3 +1,6 @@
+"""
+depreceated for utils file for modularity
+
 from pathlib import Path
 from statistics import mean
 import sqlite3
@@ -21,3 +24,5 @@ def calculate_vo2_max(distance_m: float, avg_speed:float, hr_max:float, hr_rest:
     vo2_max = 15.3 * heart_rate_factor * speed_kmh
 
     return round(vo2_max, 2)
+    
+"""
